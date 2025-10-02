@@ -1,23 +1,16 @@
+# 🛒 Product Scraper
 
----
-
-### ✖️ List Doubler (list-doubler)
-
-```markdown
-# ✖️ List Doubler Program
-
-A simple Python program that doubles each element in a list and stores the results in a new list.
+This project scrapes product data from the **WebScraper Test E-commerce Site** and stores it in a dictionary.  
+The data is then saved into a **CSV file** for further use.
 
 ---
 
 ## 🚀 Features
-- Uses a `for` loop to process each element in the list.
-- Stores doubled values in a new list.
-- Prints both the original list and the new list.
+- Scrapes product name, price, description, rating, and number of reviews  
+- Stores the data in a Python dictionary  
+- Converts the dictionary into a Pandas DataFrame  
+- Saves the final result as `products.csv`  
 
 ---
 
-## 📂 How to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Msalam/list-doubler.git
+## 📂 Project Structure
