@@ -1,0 +1,5 @@
+ProductScraper/
+│
+├── scraper.py
+├── README.md
+├── requirements.txt
